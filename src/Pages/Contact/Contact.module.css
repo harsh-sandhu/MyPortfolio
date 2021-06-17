@@ -1,0 +1,84 @@
+.page {
+  width: 100vw;
+  background-color: #662d91;
+  overflow-x: hidden;
+}
+.heading {
+  color: white;
+  font-weight: bolder;
+  animation: head 2s linear infinite;
+  margin-left: 20vw;
+  margin-top: 30px;
+  font-family: "Source Code Pro", monospace;
+}
+@keyframes head {
+  0% {
+    color: white;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: white;
+  }
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  margin: 2vh;
+}
+.links > a {
+  text-decoration: none;
+  color: yellow;
+  border-bottom: 1px solid yellow;
+  width: 60vw;
+  margin: 5vh 5vh;
+}
+.links > a > i {
+  font-size: 3vw;
+  margin-right: 3vh;
+}
+.github {
+  transition: ease-in-out 0.4s -webkit-text-fill-color,
+    ease-in-out 0.4s -webkit-text-stroke-color, ease-in-out 0.4s font-weight;
+}
+.github:hover {
+  font-weight: bolder;
+  -webkit-text-fill-color: #662d91;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
+.linkedin {
+    transition: ease-in-out 0.4s -webkit-text-fill-color,
+    ease-in-out 0.4s -webkit-text-stroke-color, ease-in-out 0.4s font-weight;
+}
+.linkedin:hover{
+    font-weight: bolder;
+    -webkit-text-fill-color: #662d91;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+}
+.contactImg{
+    margin-left:25vh;
+}
+.box{
+    display:flex;
+}
+@media (max-width:600px) {
+    .links{
+        font-size: 2vh;
+    }
+    .links>a{
+        width:90vw;
+    }
+    .heading{
+        margin-left: -2vh;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .contactImg>img{
+        height:50vh;
+    }
+}

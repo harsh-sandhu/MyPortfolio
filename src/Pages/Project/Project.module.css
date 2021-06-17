@@ -1,0 +1,23 @@
+.page{
+    width:100vw;
+    background-color:yellow;
+    overflow-x: hidden;
+}
+.heading{
+    color:white;
+    font-weight: bolder;
+    animation: head 2s linear infinite;
+    margin-left:20vw;
+    margin-top:30px;
+    transform: translateX(100%);
+    font-family: 'Source Code Pro', monospace;
+}
+@keyframes head {
+    0%{
+        color:cyan;
+    }50%{
+        color:#662d91;
+    }100%{
+        color:cyan;
+    }
+}

@@ -1,0 +1,83 @@
+.page{
+    width:100vw;
+    background-color: #662d91;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.heading{
+    color:white;
+    font-weight: bolder;
+    animation: head 2s linear infinite;
+    margin-left:10vw;
+    margin-top:30px;
+    font-family: 'Source Code Pro', monospace;
+}
+@keyframes head {
+    0%{
+        color:white;
+    }50%{
+        color:yellow;
+    }100%{
+        color:white;
+    }
+}
+.skills{
+    margin:2vw;
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+    width:60vw;
+    display: flex;
+    font-size: 150%;
+    justify-content: space-between;
+}
+.skillSet{
+    font-size: 200px;
+    margin:20px;
+    width:25vw;
+}
+.skillSet>h2{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.list>*{
+    transition: ease-in-out 0.4s transform;
+}
+.list>*:hover{
+    transform: scale(1.1,1.1);
+    animation: ani 1.4s linear infinite;
+}
+@keyframes ani {
+    0%{
+        color:white;
+    }50%{
+        font-weight: bold;
+        color:cyan;
+    }100%{
+        color:white;
+    } 
+}
+.aboutMe{
+    color:white;
+    width:30vw;
+}
+@media (max-width:800px) {
+    .heading{
+        margin-left:-12vw;
+    }
+    .skills{
+        flex-direction: column;
+        width:80vw;
+        margin-left: -8vw;
+        font-size: 115%;
+    }
+    .skillSet{
+        width:90vw;
+    }
+    .aboutMe{
+        width:90vw;
+    }
+}
+.strong{
+    color:yellow;
+    font-weight: 700;
+}

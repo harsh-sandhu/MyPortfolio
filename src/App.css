@@ -1,0 +1,31 @@
+.floater{
+  position: fixed;
+  z-index: 500;
+  text-decoration: none;
+  color:black;
+  top:90vh
+  
+}
+.floater>*{
+  opacity:70%;
+  font-size: 180%;
+  font-family: 'Chela One', cursive;
+  text-decoration: none;
+  font-style: italic;
+  margin-left:3vh;
+  -webkit-text-fill-color: #662d91;
+  text-shadow: 0 0 5px yellow;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: yellow;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #662d91;
+  outline: 1px solid #662d91;
+}
