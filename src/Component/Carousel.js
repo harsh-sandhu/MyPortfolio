@@ -4,13 +4,13 @@ import weather from "../Assets/Videos/Weather.png";
 import foodapp from "../Assets/Videos/foodapp.png";
 import snake from "../Assets/Videos/snake.png";
 import cal from "../Assets/Videos/calculator.png";
+import classes from './Carousel.module.css'
 const Carousel = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      className="carousel slide"
+      className={`carousel slide ${classes.wide}`}
       data-bs-ride="carousel"
-      style={{ height: "80vh", margin: "5vh" }}
     >
       <div className="carousel-indicators">
         <button

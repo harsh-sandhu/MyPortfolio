@@ -16,7 +16,7 @@ const Contact = () => (
         >
           <i className="fab fa-linkedin-in"></i> Harsh Sandhu
         </a>
-        <a href="#contact">
+        <a className="classes.mail" href="#contact">
           <i className="fas fa-envelope"></i>{" "}
           harshsandhu.cse19@chitkarauniversity.edu.in
         </a>
@@ -25,7 +25,7 @@ const Contact = () => (
         </a>
       </div>
       <div id="contactImg" style={{height:'90vh'}} className={classes.contactImg}>
-        <img src={image} style={{height:'90vh'}}></img>
+        <img src={image} ></img>
       </div>
     </div>
   </div>

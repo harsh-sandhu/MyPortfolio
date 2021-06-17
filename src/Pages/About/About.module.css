@@ -62,12 +62,12 @@
 }
 @media (max-width:800px) {
     .heading{
-        margin-left:-12vw;
+        margin-left:-25vw;
     }
     .skills{
         flex-direction: column;
         width:80vw;
-        margin-left: -8vw;
+        margin-left: -12vw;
         font-size: 115%;
     }
     .skillSet{

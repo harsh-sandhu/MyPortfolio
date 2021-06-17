@@ -3,7 +3,7 @@ import icon from '../Assets/icon.png';
 const Navbar = () => {
   return (
     <Fragment>
-      <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:'yellow',height:'10vh'}}>
+      <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:'yellow',height:'10vh',paddingTop:'20px'}}>
         <div className="container-fluid mx-4">
           <a className="navbar-brand" href="#">
             <img src={icon} className="rounded-circle" width="40"></img>

@@ -9,7 +9,7 @@
     transition: ease-in-out 0.4s width;
 }
 .container>img:hover{
-    width:270px;
+    width:72vw;
 }
 .details{
     margin:40px 5px;
@@ -26,13 +26,13 @@
         flex-direction: column;
     }
     .container>img{
-        width:150px;
+        width:70vw;
     }
     .details{
         margin:5px;
     }
     .details>h3{
-        font-size: 70%;
+        font-size:6vw;
     }
     
 }

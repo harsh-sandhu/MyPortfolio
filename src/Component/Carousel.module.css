@@ -1,0 +1,10 @@
+.wide{
+    margin: 5vh; 
+}
+@media (max-width:600px) {
+    .wide{
+        width:100%;
+        margin:5vh 0;
+    }
+    
+}

@@ -62,23 +62,41 @@
 .contactImg{
     margin-left:25vh;
 }
+.contactImg>img{
+  height:90vh;
+}
 .box{
     display:flex;
 }
 @media (max-width:600px) {
     .links{
-        font-size: 2vh;
+        font-size:4vw;
+        margin-left:0;
     }
     .links>a{
         width:90vw;
     }
+    .github{
+      font-size: 6vw;
+    }
+    .linkedin{
+      font-size: 6vw;
+    }
+    .links>a>i{
+      font-size:7vw;
+    }
     .heading{
-        margin-left: -2vh;
+        margin-left: -15vh;
     }
     .box{
         flex-direction: column;
+        margin-left:-5vw;
     }
     .contactImg>img{
-        height:50vh;
+        height:40vh;
+    }
+    .page{
+      height:105vh;
+      overflow-y:hidden;
     }
 }
