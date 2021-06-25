@@ -42,9 +42,9 @@ const Carousel = () => {
           <a href="https://harsh-sandhu.github.io/WeatherApp/build/index.html" target="blank">
             <ProjectItem img={weather} name="Weather App" />
           </a>
-          {/* <a href="https://harsh-sandhu.github.io/SAV/build/index.html" target="blank">
+          <a href="https://harsh-sandhu.github.io/SAV/build/index.html" target="blank">
             <ProjectItem img={sav} name="Sorting Algorithm Visualizer" />
-          </a> */}
+          </a>
           <a href="https://harsh-sandhu.github.io/Food-Ordering-App/build/index.html" target="blank">
             <ProjectItem img={foodapp} name="Food Ordering App" />
           </a>
