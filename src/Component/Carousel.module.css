@@ -1,5 +1,6 @@
 .wide{
     margin: 5vh; 
+    min-height: 70vh;
 }
 @media (max-width:600px) {
     .wide{

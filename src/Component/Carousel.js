@@ -4,7 +4,8 @@ import weather from "../Assets/Videos/Weather.png";
 import foodapp from "../Assets/Videos/foodapp.png";
 import snake from "../Assets/Videos/snake.png";
 import cal from "../Assets/Videos/calculator.png";
-import classes from './Carousel.module.css'
+import polaroid from "../Assets/Videos/Polaroid.png";
+import classes from "./Carousel.module.css";
 const Carousel = () => {
   return (
     <div
@@ -29,23 +30,32 @@ const Carousel = () => {
           aria-label="Slide 2"
           style={{ backgroundColor: "#662d91" }}
         ></button>
-        {/* <button
+        <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="2"
           aria-label="Slide 3"
           style={{ backgroundColor: "#662d91" }}
-        ></button> */}
+        ></button>
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" style={{ paddingBottom: "10vh" }}>
-          <a href="https://harsh-sandhu.github.io/WeatherApp/build/index.html" target="blank">
+          <a
+            href="https://harsh-sandhu.github.io/WeatherApp/build/index.html"
+            target="blank"
+          >
             <ProjectItem img={weather} name="Weather App" />
           </a>
-          <a href="https://harsh-sandhu.github.io/SAV/build/index.html" target="blank">
+          <a
+            href="https://harsh-sandhu.github.io/SAV/build/index.html"
+            target="blank"
+          >
             <ProjectItem img={sav} name="Sorting Algorithm Visualizer" />
           </a>
-          <a href="https://harsh-sandhu.github.io/Food-Ordering-App/build/index.html" target="blank">
+          <a
+            href="https://harsh-sandhu.github.io/Food-Ordering-App/build/index.html"
+            target="blank"
+          >
             <ProjectItem img={foodapp} name="Food Ordering App" />
           </a>
           <div
@@ -61,6 +71,28 @@ const Carousel = () => {
           >
             <h5>React Js Projects</h5>
             <p>Click on project to open</p>
+          </div>
+        </div>
+        <div className="carousel-item" style={{ paddingBottom: "10vh" }}>
+          <a href="https://polaroid-social-media.herokuapp.com/" target="blank">
+            <ProjectItem
+              img={polaroid}
+              name="Social Media Application-Polaroid "
+            />
+          </a>
+          <div
+            className="carousel-caption d-none d-md-block"
+            style={{
+              color: "#662d91",
+              filter: "drop-shadow(0 0 5px black)",
+              backgroundColor: "rgba(256,256,256,0.3)",
+              borderRadius: "20px",
+              width: "40vw",
+              margin: "auto",
+            }}
+          >
+            <h5>Full-Stack Application-(MERN)</h5>
+            <p>These Apps are made with MERN stack</p>
           </div>
         </div>
         <div className="carousel-item" style={{ paddingBottom: "10vh" }}>
@@ -85,25 +117,6 @@ const Carousel = () => {
             <p>Click on project to open</p>
           </div>
         </div>
-        {/* <div className="carousel-item" style={{ paddingBottom: "10vh" }}>
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <div
-            className="carousel-caption d-none d-md-block"
-            style={{
-              color: "#662d91",
-              filter: "drop-shadow(0 0 5px black)",
-              backgroundColor: "rgba(256,256,256,0.3)",
-              borderRadius: "20px",
-              width: "40vw",
-              margin: "auto",
-            }}
-          >
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div> */}
       </div>
       <button
         className="carousel-control-prev"
